@@ -1,3 +1,4 @@
+import java.util.*;
 class day5{
     int getMinDiff(int[] arr, int n, int k) {
         // code here
