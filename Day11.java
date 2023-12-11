@@ -1,0 +1,20 @@
+class Day11{
+    static long maximumSumSubarray(int K, ArrayList<Integer> Arr,int N){
+        long ans=0,temp=0;
+           int i=0,j=0;
+           
+           while(j<N){
+               
+               if(j-i+1<=K){
+                   temp+=Arr.get(j);
+                   j++;
+               }else{
+                   ans=Math.max(ans,temp);
+                   temp-=Arr.get(i);
+                   i++;
+               }
+           }
+           ans=Math.max(ans,temp);
+           return ans;
+       }
+}
