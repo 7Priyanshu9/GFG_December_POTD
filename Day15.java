@@ -2,7 +2,7 @@ class Day15{
     public int nthPoint(int n)
     {
         // Code here
-          if(n == 1 || n == 2)return n;
+        if(n == 1 || n == 2)return n;
         int a = 1;
         int b = 1;
         int c = 0;
