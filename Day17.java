@@ -1,5 +1,8 @@
-public Day17{
-    int findMaxSum(int arr[], int n) {
+/**
+ * Day17
+ */
+public class Day17 {
+int findMaxSum(int arr[], int n) {
         
 
         if (n == 0) {
@@ -28,3 +31,4 @@ public Day17{
     }
 
 }
+    
