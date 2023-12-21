@@ -1,3 +1,4 @@
+import java.util.Arrays;
 public class Day21{
     static int minCandy(int N, int ratings[]) {
         // code here
