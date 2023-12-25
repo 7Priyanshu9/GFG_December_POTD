@@ -1,4 +1,6 @@
 public class Day25{
+    static int determinantOfMatrix(int matrix[][], int n)
+    {
     if (n == 1) {
         return matrix[0][0];
     }
@@ -27,4 +29,5 @@ public static void getCofactor(int[][] matrix, int[][] temp, int p, int q, int n
             }
         }
     }
+}
 }
